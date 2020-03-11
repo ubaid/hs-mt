@@ -12,8 +12,11 @@ Run the CLI application like this
 $ ./bin/hs-mt --m ./mixtape.json --c ./changes.json --o ./output.json
 ```
 Use the following switches to provide inputs to the application
+
 `--m` Path to the mixtape json file. If not provided, defaults to mixtape.json file in project root directory.
+
 `--c` Path to the changes json file. If not provided, defaults to changes.json file in project root directory.
+
 `--o` Path for the output json file. If not provided, defaults to output.json file in project root directory.
 
 

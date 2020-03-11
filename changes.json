@@ -1,0 +1,38 @@
+{
+  "playlists": [{
+      "action": "add",
+      "data": {
+        "id": "4",
+        "user_id": "1",
+        "song_ids": [
+          "1", "2"
+        ]
+      }
+    },
+    {
+      "action": "add",
+      "data": {
+        "id": "5",
+        "user_id": "2",
+        "song_ids": [
+          "1", "2"
+        ]
+      }
+    },
+    {
+      "action": "remove",
+      "data": {
+        "id": "1"
+      }
+    },
+    {
+      "action": "tag",
+      "data": {
+        "id": "3",
+        "song_ids": [
+          "4", "5"
+        ]
+      }
+    }
+  ]
+}

@@ -20,6 +20,11 @@ Use the following switches to provide inputs to the application
 `--o` Path for the output json file. If not provided, defaults to output.json file in project root directory.
 
 
+Note: If there is a permission error in running the command, run the following to grant execute permission to the `cli` file:
+```
+chmod +x ./src/cli.js
+```
+
 >If you want to run the application with defaults (mixtape.json, changes.json and output.json files in the project root directory), just run
 ```
 $ ./bin/hs-mt

@@ -23,7 +23,7 @@ Use the following switches to provide inputs to the application
 
 >Note: If there is a permission error in running the command, run the following to grant execute permission to the `cli` file:
 ```
-$ chmod +x ./src/cli.js
+$ chmod +x ./bin/hs-mt
 ```
 
 >If you want to run the application with defaults (mixtape.json, changes.json and output.json files in the project root directory), just run

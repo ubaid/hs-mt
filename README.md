@@ -21,7 +21,7 @@ Use the following switches to provide inputs to the application
 
 
 
->Note: If there is a permission error in running the command, run the following to grant execute permission to the `cli` file:
+>Note: If there is a permission error in running the command, run the following to grant execute permission to the `./bin/hs-mt` file:
 ```
 $ chmod +x ./bin/hs-mt
 ```
